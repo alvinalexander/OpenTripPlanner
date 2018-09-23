@@ -5,8 +5,8 @@ set -e
 # databuild
 #
 # Set these environment variables
-#DOCKER_USER // dockerhub credentials
-#DOCKER_AUTH
+#DOCKER_USER = 
+#DOCKER_AUTH = 
 
 ORG=${ORG:-hsldevcom}
 DOCKER_TAG=${TRAVIS_COMMIT:-latest}
